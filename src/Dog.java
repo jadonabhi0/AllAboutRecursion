@@ -5,8 +5,8 @@ public class Dog {
         if (n == 1){
             return  2;
         }
-        n--;
-        return countEar(n)+2;
+
+        return countEar(n-1)+2;
 
     }
 
