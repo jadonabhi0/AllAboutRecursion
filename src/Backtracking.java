@@ -12,6 +12,8 @@ public class Backtracking {
             printPermutation(newStr,perm+curchar,index+1);
         }
 
+        
+        
     }
     public static void main(String[] args) {
         printPermutation("abc","",0);
