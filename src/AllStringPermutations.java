@@ -9,6 +9,8 @@ public class AllStringPermutations {
             String newstr = str.substring(0,i)+str.substring(i+1);
             strPerm(newstr,perm+curchar);
         }
+        
+        
     }
     public static void main(String[] args){
         strPerm("abc","");
