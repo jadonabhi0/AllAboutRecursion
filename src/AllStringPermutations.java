@@ -10,7 +10,6 @@ public class AllStringPermutations {
             strPerm(newstr,perm+curchar);
         }
         
-        
     }
     public static void main(String[] args){
         strPerm("abc","");
