@@ -1,23 +1,27 @@
 package DynamicProgramming;
 
+import java.util.Scanner;
+
 public class TillingMX1_TopDown {
-    static  void tilling(int flen, int fbre, int tlen, int tbre){
+    static  void tilling(int flen, int fbre){
         int[] dp =  new int[flen+1];
         for(int i = 1 ; i <= flen ; i++){
-            if(i<tbre){
+            if(i<fbre){
                 dp[i] = 1;
-            }else if(i == tbre){
+            }else if(i == fbre){
                 dp[i] = 2;
             }else{
-                dp[i] = dp[i-tlen]+dp[i-tbre];
+                dp[i] = dp[i-1]+dp[i-fbre];
             }
         }
         System.out.println(dp[flen]);
-//        for(int i = 0 ; i < dp.length ; i++){
-//            System.out.println(dp[i]);
-//        }
+
     }
     public static void main(String[] args){
-        tilling(8,3,1,3);
+        Scanner sc =new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        tilling(n,m);
     }
 }

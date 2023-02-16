@@ -5,9 +5,8 @@ public class Dog {
         if (n == 1){
             return  2;
         }
-
-        return countEar(n-1)+2;
-
+        int a = countEar(n-1)+2;
+        return a;
     }
 
     public static void main(String[] args) {
