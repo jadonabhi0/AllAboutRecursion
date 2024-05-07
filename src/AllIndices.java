@@ -7,8 +7,6 @@ public class AllIndices {
             return  new int[fsf] ;
 
         }
-
-        
         if(array[index] == num){
             int[] arr = allIndices(array,num,index+1,fsf+1);
             arr[fsf] = index;
