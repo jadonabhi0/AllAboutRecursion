@@ -15,7 +15,6 @@ public class AllIndices {
             int[] arr =    allIndices(array,num,index+1,fsf);
             return arr;
         }
-
     }
     public static void main(String[] args){
         int [] array  = {2,1,2,3,4,5,1,21,3,1,1,1,1};
