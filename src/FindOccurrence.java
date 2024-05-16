@@ -22,6 +22,8 @@ public class FindOccurrence {
 
     }
 
+
+    
     public static void main(String[] args) {
 
         String str = "ajsha";
