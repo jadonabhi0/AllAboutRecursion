@@ -10,6 +10,8 @@ public class Backtracking {
             String newStr = str.substring(0,i)+str.substring(i+1);
             printPermutation(newStr,perm+curchar,index+1);
         }
+
+        
     }
     public static void main(String[] args) {
         printPermutation("abc","",0);
