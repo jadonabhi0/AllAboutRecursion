@@ -14,6 +14,7 @@ public class ArraySort {
            }
        }
         sortArray(array,n+1);
+        
     }
 
     public static void main(String[] args){
