@@ -17,6 +17,8 @@ public class ArraySort {
         
     }
 
+
+    
     public static void main(String[] args){
         int [] array = {3,6,8,4,1,9,6,7,3,4,};
         sortArray(array,0);
