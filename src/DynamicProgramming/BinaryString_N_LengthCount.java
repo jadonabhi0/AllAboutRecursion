@@ -4,7 +4,6 @@ public class BinaryString_N_LengthCount {
 
     static int countBinaryString(int n){
         // constraint no consecutive zeros come together;
-
         int  one = 1;
         int zero = 1;
         for(int i = 1 ; i < n ; i++){
