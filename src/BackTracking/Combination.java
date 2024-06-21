@@ -14,8 +14,6 @@ public class Combination {
             }
             return;
         }
-
-
         list.add(array[idx]);
         comb(array, idx+1, list, k-array[idx]);
         list.remove(list.size()-1);
