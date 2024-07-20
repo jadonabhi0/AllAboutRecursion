@@ -3,6 +3,8 @@ import java.util.Arrays;
 public class AllIndices {
 
     static int[] allIndices(int[] array,int num, int index, int fsf ){
+
+        
         if(index == array.length){
             return  new int[fsf] ;
         }
