@@ -10,14 +10,11 @@ public class CalcFactorial {
         return fact;
     }
 
-
-
     
     public static void main(String[] args) {
 
         int ans = calcFactorial(6);
-        System.out.println(ans
-        );
+        System.out.println(ans);
 
     }
 
